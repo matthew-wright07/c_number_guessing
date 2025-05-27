@@ -10,9 +10,9 @@ int main(){
         printf("Please enter a number to guess:\n");
         scanf("%d",&guess);
         if (guess>random){
-            printf("Too High!\n");
+            printf("Too High.\n");
         }else if (guess<random){
-            printf("Too Low!\n");
+            printf("Too Low.\n");
         }else{
             printf("You did it!\n");
             break;
